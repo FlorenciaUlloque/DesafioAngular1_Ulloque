@@ -1,0 +1,98 @@
+.container {
+    border-bottom: 1px solid #D9D9D9;
+    background: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1920px;
+  height: 68px;
+  flex-shrink: 0;
+  background-color: rgb(224, 220, 220);
+
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 23.8px */
+    letter-spacing: -0.85px;
+  }
+
+  .navStyle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    .ulStyle {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      list-style: none;
+    }
+  }
+
+  .divButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .buttons {
+      margin-right: 20px;
+      height: 2.3em;
+      border-radius: 6px;
+      border: 1px solid var(--Blue-1, #2f80ed);
+      background: #fff;
+      display: flex;
+      width: 122.667px;
+      padding: 10px 18px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      color: #2f80ed;
+      transition: all 0.3s ease-in-out;
+    }
+    .registerButton {
+      margin-right: 20px;
+      height: 2.3em;
+      border-radius: 6px;
+      border: 1px solid var(--Blue-1, #2f80ed);
+      background: #fff;
+      display: flex;
+      width: 122.667px;
+      padding: 10px 18px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      color: #2f80ed;
+      &:hover {
+        border: 1px solid var(--Blue-1, white);
+        background: #2f80ed;
+        color: white;
+      }
+    }
+
+    .signInButton {
+      margin-right: 20px;
+      height: 2.3em;
+      border-radius: 6px;
+      border: 1px solid var(--Blue-1, #2f80ed);
+      display: flex;
+      width: 122.667px;
+      padding: 10px 18px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      background: var(--Primary-Active, #2f80ed);
+      color: #fff;
+      &:hover {
+        border: 1px solid var(--Blue-1, #2f80ed);
+        background: white;
+        color: #2f80ed;
+      }
+    }
+  }
+}

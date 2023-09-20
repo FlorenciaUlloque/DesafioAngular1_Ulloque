@@ -1,0 +1,15 @@
+
+.navbar { grid-area: navbar;}
+.toolbar { grid-area: toolbar;}
+.cont { grid-area: cont;}
+
+body {
+    height: 100%;
+}
+.container {
+    display: grid;
+    grid-column: auto;
+    grid-template-areas:
+      'toolbar toolbar toolbar'
+      'navbar cont cont';
+  }
